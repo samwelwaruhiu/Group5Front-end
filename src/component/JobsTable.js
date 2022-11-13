@@ -1,37 +1,31 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
-function Jobs_Table() {
+
+function Jobs_Table({card}) {
   return (
     <div>
         <table class="table">
                 <thead>
                     <tr>
                     <th scope="col">JOB NO</th>
-                    <th scope="col">COMPANY</th>
+                    <th scope="col">ORGANIZATION</th>
                     <th scope="col">JOB TITLE</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">JOB LINK</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
+                    <th scope="row">001</th>
+                    <td>{card.organization}</td>
+                    <td>{card.title}</td>
+                    <a href={card.location}>Visit Site</a>
+                    <Link to={`/:apply`}>
+                    <button className='apply'>Apply Now!</button>
+                    </Link>
                     </tr>
                 </tbody>
+               
             </table>
     </div>
   )

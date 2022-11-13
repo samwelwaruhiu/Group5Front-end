@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 export default function Home () {
     return(
     <>
@@ -9,7 +12,9 @@ export default function Home () {
                 <h1 className="display-3 fw-bold mb-3">Jobs For Devs.</h1>
                 <p className="lead mb-5">We are here to connect you to the world of technology..</p>
                 <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" className="btn btn-light btn-lg px-4 gap-3">Free Consultation</button>
+                <Link to={`/job`}>
+                <button type="button" className="btn btn-light btn-lg px-4 gap-3">View Our Jobs</button>
+                </Link>
                 {/* <button type="button" className="btn btn-outline-light btn-lg px-4">Buy Credits</button> */}
                 </div>
             </div>
