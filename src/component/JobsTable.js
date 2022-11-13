@@ -1,10 +1,39 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
+import "../App.css";
 
+function JobsTable({ cards }) {
+  console.log(cards);
 
-function Jobs_Table({card}) {
+  const vuu = cards.map((card) => {
+    return (
+      <tr>
+        <td>{card.id}</td>
+        <td>{card.organization}</td>
+        <td>{card.title}</td>
+        <td>
+          {" "}
+          <Link to={`/:apply`}>
+            <button className="apply">Apply Now!</button>
+          </Link>
+        </td>
+      </tr>
+    );
+  });
+
   return (
     <div>
+      <table class="table">
+        <tr>
+          <th>JOB NO</th>
+          <th>ORGANIZATION</th>
+          <th>JOB TITLE</th>
+          <th>JOB LINK</th>
+        </tr>
+        {vuu}
+      </table>
+
+      {/* 
         <table class="table">
                 <thead>
                     <tr>
@@ -16,7 +45,7 @@ function Jobs_Table({card}) {
                 </thead>
                 <tbody>
                     <tr>
-                    <th scope="row">001</th>
+                    <th scope="row">{card.id}</th>
                     <td>{card.organization}</td>
                     <td>{card.title}</td>
                     <a href={card.location}>Visit Site</a>
@@ -26,9 +55,9 @@ function Jobs_Table({card}) {
                     </tr>
                 </tbody>
                
-            </table>
+            </table> */}
     </div>
-  )
+  );
 }
 
-export default Jobs_Table
+export default JobsTable;

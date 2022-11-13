@@ -274,6 +274,20 @@ color: white;
 filter: brightness(80%);
 }
 
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 17px;
+  
+}
+td, th{
+  border: 1px solid #a9a9a9;
+  padding: 8px;
+}
+tr{
+  text-align: center;
+}
+
 
 
 
