@@ -68,11 +68,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Github Accounts
    
-  Calvin Codalo - https://github.com/23po
-  Cynthia Njomo - https://github.com/CynthiaNgoiri
-  Stephen Njambi - https://github.com/Stephen-Njuguna-Njambi-Moringa
-  Nana Olomaiyan - 
-  Jeremiah Kungu - https://github.com/JeremyKungu
-  Samwel Waruhiu - https://github.com/samwelwaruhiu
+  1. Calvin Codalo - https://github.com/23po
+  2. Cynthia Njomo - https://github.com/CynthiaNgoiri
+  3. Stephen Njambi - https://github.com/Stephen-Njuguna-Njambi-Moringa
+  4. Nana Olomaiyan - 
+  5. Jeremiah Kungu - https://github.com/JeremyKungu
+  6. Samwel Waruhiu - https://github.com/samwelwaruhiu
   
     
