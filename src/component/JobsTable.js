@@ -11,6 +11,7 @@ function JobsTable({ cards }) {
         <td>{card.id}</td>
         <td>{card.organization}</td>
         <td>{card.title}</td>
+        <td><a href={card.location}>Visit Site</a></td>
         <td>
           {" "}
           <Link to={`/:apply`}>
@@ -29,6 +30,7 @@ function JobsTable({ cards }) {
           <th>ORGANIZATION</th>
           <th>JOB TITLE</th>
           <th>JOB LINK</th>
+          <th>APPLICATION</th>
         </tr>
         {vuu}
       </table>
