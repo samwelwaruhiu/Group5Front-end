@@ -20,7 +20,7 @@ The Title of the project is a JobsForDevs Website.
 This website is a website which assists developers to be able to view jobs and also they are able to apply for Jobs of their choice.
 Addtionally the website has a Recruiters section where the recruiters are able to POST the jobs that they wish to display to the users of the site to view and apply.
 This project incorporates a backend which is entirely built with Ruby. 
-The project meets its deliverables as it perfomes the CRUD operations, and to be specific The READ where data is fetched from our Sinatra API, CREATE where the recruiter is able to POST jobs to the website and DELETE where the recruiter can delete the job and it is destroyed in our Backend as well as deleted in our webpage.
+The project meets its deliverables as it perfomes the CRUD operations, and to be specific The READ where data is fetched from our Sinatra API, CREATE where the recruiter is able to POST jobs to the website and DELETE where the recruiter can delete the job.
 
 ## Group Members
 
