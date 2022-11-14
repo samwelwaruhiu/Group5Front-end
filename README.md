@@ -48,6 +48,8 @@ The Technology includes ;
 
     4. React - React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
 
+    5. Ruby - which was used to run the back-end of our application.
+
 ## Reference 
 
     - Moringa School Course Content
@@ -71,7 +73,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   1. Calvin Codalo - https://github.com/23po
   2. Cynthia Njomo - https://github.com/CynthiaNgoiri
   3. Stephen Njambi - https://github.com/Stephen-Njuguna-Njambi-Moringa
-  4. Nana Olomaiyan - 
+  4. Nana Olomaiyan - https://github.com/olomaiyani
   5. Jeremiah Kungu - https://github.com/JeremyKungu
   6. Samwel Waruhiu - https://github.com/samwelwaruhiu
   
